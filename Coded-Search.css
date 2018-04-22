@@ -1,0 +1,33 @@
+/* 
+Coded UI v1.0.0
+Lightweight front end web framework 
+*/
+
+
+.coded-search{
+  padding: 6px;
+  border: none;
+  font-size: 17px;
+  background-color:#f6f6f6;
+}
+.coded-search:focus{
+    outline-color: #068cff; /*change your focus color here*/ 
+    outline-style: solid;
+    outline-width: 5px;
+    
+}
+
+@media all and (max-width: 600px) {
+.coded-search {
+    float: none;
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+.coded-search{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc; /*change your background color here*/ 
+  }
+}
